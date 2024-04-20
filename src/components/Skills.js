@@ -25,7 +25,7 @@ export default function Skills() {
         </div>
         
         {Object.keys(skills).map((category) => (
-          <div key={category}>
+          <div key={category} className="text-center mb-20">
             <h3 className="sm:text-2xl text-xl font-medium title-font text-white mb-4">
              {capitalizeFirstLetterOfEachWord(addSpacesBeforeCapitalLetters(category))} {/* Capitalize first letter of each word and add spaces */}
             </h3>

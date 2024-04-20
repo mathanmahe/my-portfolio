@@ -9,9 +9,12 @@ export default function Education() {
     <section id="education">
       <div className="container px-5 py-10 mx-auto">
         <AcademicCapIcon className="w-10 inline-block mb-4" />
-        <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
-          Education
-        </h1>
+        <div classname="text-center mb-20">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
+            Education
+          </h1>
+        </div>
+        
         <div className="flex flex-wrap m-4">
           {education.map((edu, index) => (
             <div key={index} className="p-4 md:w-full w-full">
@@ -29,6 +32,13 @@ export default function Education() {
                     <li key={index}>{course}</li>
                   ))}
                 </ul>
+              </div>
+              <div className="md:w-2/5 flex justify-center items-center">
+                <img 
+                  src={edu.image} // Adjust the path as needed.
+                  alt={`${edu.institution} logo`} 
+                  className="max-h-36 w-auto" // This will constrain the height of the image.
+                />
               </div>
             </div>
           ))}

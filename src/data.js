@@ -186,7 +186,8 @@ export const education = [
       "Computer Vision",
       "Social Computing",
       "Computer Networks"
-    ]
+    ],
+    image: "GT_logo.png"
   },
   {
     institution: "National University of Singapore (NUS)",
@@ -203,6 +204,7 @@ export const education = [
       "Database Systems",
       "Internet Architecture",
       "Design and Analysis of Algorithms"
-    ]
+    ],
+    image: "NUS_logo.png"
   }
 ];
