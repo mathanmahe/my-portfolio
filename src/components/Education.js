@@ -32,14 +32,15 @@ export default function Education() {
                     <li key={index}>{course}</li>
                   ))}
                 </ul>
+                <div className="md:w-2/5 flex justify-end items-end">
+                  <img 
+                    src={edu.image} // Adjust the path as needed.
+                    alt={`${edu.institution} logo`} 
+                    className="max-h-36 w-auto" // This will constrain the height of the image.
+                  />
+                </div>
               </div>
-              <div className="md:w-2/5 flex justify-center items-center">
-                <img 
-                  src={edu.image} // Adjust the path as needed.
-                  alt={`${edu.institution} logo`} 
-                  className="max-h-36 w-auto" // This will constrain the height of the image.
-                />
-              </div>
+
             </div>
           ))}
         </div>
