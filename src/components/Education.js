@@ -8,8 +8,9 @@ export default function Education() {
   return (
     <section id="education">
       <div className="container px-5 py-10 mx-auto">
-        <AcademicCapIcon className="w-10 inline-block mb-4" />
+        
         <div classname="text-center mb-20">
+          <AcademicCapIcon className="w-10 inline-block mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
             Education
           </h1>
@@ -19,6 +20,13 @@ export default function Education() {
           {education.map((edu, index) => (
             <div key={index} className="p-4 md:w-full w-full">
               <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+                <div className="md:w-2/5 flex justify-start items-right">
+                  <img 
+                    src={edu.image} // Adjust the path as needed.
+                    alt={`${edu.institution} logo`} 
+                    className="max-h-36 w-auto" // This will constrain the height of the image.
+                  />
+                </div>
                 <h2 className="sm:text-2xl text-xl font-medium title-font text-white mb-3">
                   {edu.degree}
                   {edu.specialization && `, ${edu.specialization}`}
@@ -32,13 +40,6 @@ export default function Education() {
                     <li key={index}>{course}</li>
                   ))}
                 </ul>
-                <div className="md:w-2/5 flex justify-end items-end">
-                  <img 
-                    src={edu.image} // Adjust the path as needed.
-                    alt={`${edu.institution} logo`} 
-                    className="max-h-36 w-auto" // This will constrain the height of the image.
-                  />
-                </div>
               </div>
 
             </div>
