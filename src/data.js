@@ -162,10 +162,10 @@ export const skills = {
   programmingLanguages: [
     "Python", "Java", "C++", "C", "JavaScript", "SQL", "HTML", "CSS", "Markdown"
   ],
-  frameworksLibraries: [
+  frameworksAndLibraries: [
     "Agile", "Django", "NumPy", "Pandas", "Scikit-learn", "PyTorch", "Celery"
   ],
-  toolsConcepts: [
+  toolsAndConcepts: [
     "Linux", "Git", "UML", "Tableau", "Docker", "MySQL", "Postgres", "SQLite", "Wireshark", "Socket", "Rest API", "Ajax"
   ]
 };

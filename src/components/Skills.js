@@ -2,6 +2,14 @@ import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
 
+function addSpacesBeforeCapitalLetters(text) {
+  return text.replace(/([A-Z])/g, ' $1');
+}
+
+function capitalizeFirstLetterOfEachWord(text) {
+  return text.replace(/\b\w/g, char => char.toUpperCase());
+}
+
 export default function Skills() {
   return (
     <section id="skills">
@@ -19,7 +27,7 @@ export default function Skills() {
         {Object.keys(skills).map((category) => (
           <div key={category}>
             <h3 className="sm:text-2xl text-xl font-medium title-font text-white mb-4">
-              {category.replace(/([A-Z])/g, ' $1').trim()} {/* Adds space before capital letters */}
+             {capitalizeFirstLetterOfEachWord(addSpacesBeforeCapitalLetters(category))} {/* Capitalize first letter of each word and add spaces */}
             </h3>
             <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
               {skills[category].map((skill) => (
