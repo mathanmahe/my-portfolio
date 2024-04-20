@@ -169,3 +169,40 @@ export const skills = {
     "Linux", "Git", "UML", "Tableau", "Docker", "MySQL", "Postgres", "SQLite", "Wireshark", "Socket", "Rest API", "Ajax"
   ]
 };
+
+export const education = [
+  {
+    institution: "Georgia Institute of Technology",
+    location: "Atlanta, Georgia",
+    degree: "Master of Science in Computer Science",
+    specialization: "Specialization in Computing Systems",
+    gpa: "3.75/4",
+    duration: "Aug 2023 – May 2025",
+    courses: [
+      "Database Systems Implementation",
+      "Machine Learning",
+      "Data Visualization",
+      "Information Security",
+      "Computer Vision",
+      "Social Computing",
+      "Computer Networks"
+    ]
+  },
+  {
+    institution: "National University of Singapore (NUS)",
+    location: "Singapore",
+    degree: "Bachelor of Engineering in Computer Engineering (Honors)",
+    // gpa: null, // or simply omit this line if GPA is not applicable
+    duration: "Aug 2019 – Jun 2023",
+    courses: [
+      "Software Engineering and OOP",
+      "Machine Learning",
+      "Data Structures and Algorithms",
+      "Computer Networks",
+      "Computer Vision",
+      "Database Systems",
+      "Internet Architecture",
+      "Design and Analysis of Algorithms"
+    ]
+  }
+];
