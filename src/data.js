@@ -39,7 +39,7 @@ export const projects = [
     subtitle: "Python | Data Analysis | Natural Language Processing",
     description:
       "Analysed procrastination among students in Python by scraping Reddit posts, performing keyword lemmatization, and conducting sentiment analysis to identify that procrastination is correlated with stress and social media use. Sentiment Analysis revealed common feelings such as anger and sadness associated with posts on procrastination.",
-    image: "./project-student-procrastination.gif",
+    image: "./data_analysis.png",
     link: "#",
     date: "Apr 2024"
   },
@@ -49,7 +49,7 @@ export const projects = [
     description:
       "Implemented a B+ tree from scratch in C++ for database indexing, supporting operations such as lookup, insertion, and deletion. Utilized concepts like memory management, concurrency control with mutexes to prevent data corruption and race conditions. Additionally, implemented database operators like Select, Projection, Hash Join, Sort, and Hash Aggregation.",
     image: "./project-database-implementation.gif",
-    link: "#",
+    link: "./database.png",
     date: "Oct 2023"
   },
   {
@@ -57,7 +57,7 @@ export const projects = [
     subtitle: "Python | Pytorch | Deep Learning | Neural Networks | Computer Vision",
     description:
       "Developed a deep learning based multi-class classifier to detect individuals carrying weapons, with potential applications in surveillance. Employed computer vision techniques, data augmentation, hyperparameter tuning, and regularization to enhance accuracy from 70% to 88% while mitigating overfitting.",
-    image: "./project-weapon-detection.gif",
+    image: "./machineLearning.png",
     link: "#",
     date: "Jun 2023"
   },
@@ -66,24 +66,25 @@ export const projects = [
     subtitle: "Python | Django | JavaScript | SQLite | HTML | CSS",
     description:
       "Created a dynamic web application serving as a task manager with features including user sign-up and authentication, automatic email reminders, mobile responsiveness, and an alternative calendar view for task visualization. Built with Django framework for the Python backend and SQLite for storage, complemented by a HTML/CSS and JavaScript frontend.",
-    image: "./project-wedo-task-manager.gif",
+    image: "./wedo.png",
     link: "#",
     date: "Jan 2023"
+  },
+  {
+    title: "Automation of Wikipedia's Category Annotations",
+    subtitle: "Python | Machine Learning | Natural Language Processing",
+    description:
+      "Analysed supervised and unsupervised learning methods for categorization of Wikepedia Articles into 5 major categories. Scraped Data from Wikipedia, performed Exploratory Data Analysis, created word embeddings, and performed analyses using various technicques like Naive Bayes, Gradient Boosting Classifier and Random Forest methods, and found that gradient boosting classifier offered the best performance in predicting categories with an F1 score of 85%.",
+    image: "./nlp.png",
+    link: "https://sdidt.github.io/CS7641_Project/",
+    date: "Dec 2023"
   },
   {
     title: "Software Defined Network Routing",
     subtitle: "ONOS | Python | Mininet | Java",
     description:
       "Designed firewall and learning switch applications using the Open Networking Operating System (ONOS). Developed a fault-tolerant learning switch leveraging intent-based forwarding within a Software Defined Networking environment.",
-    image: "./project-sdn-routing.gif",
-    link: "#"
-  },
-  {
-    title: "Clickbait Detection on YouTube Videos",
-    subtitle: "Python | Keras | Tensorflow",
-    description:
-      "Engineered a Convolutional Neural Network to classify clickbait thumbnail images and applied Logistic Regression for detecting clickbait titles in YouTube videos.",
-    image: "./project-clickbait-detection.gif",
+    image: "./sdn.png",
     link: "#"
   },
   {
@@ -91,7 +92,7 @@ export const projects = [
     subtitle: "Java | Junit | UML | Scrum",
     description:
       "Devised a command-line interface application to assist students in managing classes, expenses, and contacts. Collaborated in a student scrum team to produce functional code, tests, documentation, and UML diagrams.",
-    image: "./project-allonus-cli.gif",
+    image: "./cli.png",
     link: "#"
   },
   {
@@ -99,7 +100,7 @@ export const projects = [
     subtitle: "Python | Bluetooth | Multiprocessing | C++",
     description:
       "Constructed a physical laser tag game integrated with 6 Arduino microcontrollers and a central relay laptop communicating over Bluetooth low energy. Monitored game states, player health, and ammunition in real-time.",
-    image: "./project-laser-tag.gif",
+    image: "./capstone.png",
     link: "#"
   },
   {
@@ -107,7 +108,7 @@ export const projects = [
     subtitle: "ARM Microcontroller | C++ | JavaScript | HTML | CSS",
     description:
       "Developed a robot car on an ARM-based FRDM Development Board, featuring a web application for remote control using an ESP8266 Wi-Fi module. Implemented real-time multitasking to handle sound systems, lighting, driving functions, and obstacle detection.",
-    image: "./project-rtos-robot-car.gif",
+    image: "./rtos.png",
     link: "#"
   },
   {
@@ -115,7 +116,7 @@ export const projects = [
     subtitle: "LiDAR | RPI | ROS | Arduino",
     description:
       "Created a teleoperated robot capable of performing environmental mapping with LiDAR, along with color sensing and obstacle detection, aimed at rescue operations.",
-    image: "./project-alex-rescue-bot.gif",
+    image: "./alex.png",
     link: "#"
   }
 ];

@@ -14,7 +14,7 @@ export default function Navbar() {
           <a href="#education" className="mr-5 hover:text-white">
             Education
           </a>
-          <a href="#workexperience" className="mr-5 hover:text-white">
+          <a href="#work-experience" className="mr-5 hover:text-white">
             Work Experience
           </a>
           <a href="#projects" className="mr-5 hover:text-white">
@@ -23,7 +23,7 @@ export default function Navbar() {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
-          <a href="#teachingExperience" className="mr-5 hover:text-white">
+          <a href="#teaching-experience" className="mr-5 hover:text-white">
             Teaching Experience
           </a>
         </nav>
