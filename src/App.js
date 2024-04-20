@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Testimonials from "./components/Testimonials"
+import WorkExperience from "./components/WorkExperience"
 
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
     <main className = "text-gray-400 bg-gray-900 body-font">
       <Navbar />
       <About />
+      <WorkExperience />
       <Projects />
       <Skills />
       <Testimonials />
