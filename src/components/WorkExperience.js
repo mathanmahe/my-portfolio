@@ -19,6 +19,13 @@ export default function WorkExperience() {
           {workExp.map((exp) => (
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+                <div className="md:w-2/5 flex justify-start items-right">
+                  <img 
+                    src={exp.image} // Adjust the path as needed.
+                    alt={`${exp.company} logo`} 
+                    className="max-h-36 w-auto" // This will constrain the height of the image.
+                  />
+                </div>
                 <BriefcaseIcon className="block w-8 text-gray-500 mb-4" />
                 <h2 className="sm:text-2xl text-xl font-medium title-font text-white mb-3">
                   {exp.role} at {exp.company}

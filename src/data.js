@@ -1,37 +1,4 @@
-// export const projects = [
-//   {
-//     title: "React Reserve",
-//     subtitle: "MERN Stack",
-//     description:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-//     image: "./project-1.gif",
-//     link: "https://reactbootcamp.com",
-//   },
-//   {
-//     title: "React Tracks",
-//     subtitle: "React and Python",
-//     description:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-//     image: "./project-2.gif",
-//     link: "https://reactbootcamp.com",
-//   },
-//   {
-//     title: "DevChat",
-//     subtitle: "React and Firebase",
-//     description:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-//     image: "./project-3.gif",
-//     link: "https://reactbootcamp.com",
-//   },
-//   {
-//     title: "Epic Todo App",
-//     subtitle: "React Hooks",
-//     description:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-//     image: "./project-4.gif",
-//     link: "https://reactbootcamp.com",
-//   },
-// ];
+
 
 export const projects = [
   {
@@ -48,8 +15,8 @@ export const projects = [
     subtitle: "C++ | Mutex",
     description:
       "Implemented a B+ tree from scratch in C++ for database indexing, supporting operations such as lookup, insertion, and deletion. Utilized concepts like memory management, concurrency control with mutexes to prevent data corruption and race conditions. Additionally, implemented database operators like Select, Projection, Hash Join, Sort, and Hash Aggregation.",
-    image: "./project-database-implementation.gif",
-    link: "./database.png",
+    image: "./database.png",
+    link: "#",
     date: "Oct 2023"
   },
   {
@@ -130,7 +97,9 @@ export const workExp = [
       "Developed a Python script to automate project management tasks, reducing developer workload by 20% per iteration by using the Myers Git Diff algorithm to identify and resolve recurring issues in the static analysis tool.",
       "Improved project build consistency and teamwork by enhancing the script to generate Excel reports with an intuitive user interface that allows direct task resolution and automatically syncs changes with the tool.",
       "Utilized Python, Selenium, SQL, Jira, Klocwork, and Git within an Agile development framework, participating in scrum meetings and PI planning."
-    ]
+    ],
+    image: "./continental.png"
+    
   },
   {
     role: "Software Developer Intern",
@@ -141,7 +110,8 @@ export const workExp = [
       "Independently designed and implemented REST API calls and a Java Swing-based UI for automated aircraft engine photo capture, reducing manual workload by 3 hours weekly and aiding in a 20% increase in sales.",
       "Gained proficiency in Java core, Swing, networking, multithreading, XMLRPC, and Maven to develop apps.",
       "Ensured seamless integration of software and hardware and conducted comprehensive customer training sessions."
-    ]
+    ],
+    image: "./robot.png"
   }
 ];
 
