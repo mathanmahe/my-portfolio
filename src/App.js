@@ -4,7 +4,7 @@ import Contact from "./components/Contact"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
-import Testimonials from "./components/Testimonials"
+import Testimonials from "./components/TeachingExperience"
 import WorkExperience from "./components/WorkExperience"
 
 
@@ -16,7 +16,7 @@ export default function App() {
       <WorkExperience />
       <Projects />
       <Skills />
-      <Testimonials />
+      <Teaching Experience />
       <Contact />
     </main>
   )

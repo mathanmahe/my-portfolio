@@ -145,41 +145,27 @@ export const workExp = [
 ];
 
 
-export const testimonials = [
+export const teachingExperience = [
   {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
+    role: "Undergraduate Teaching Assistant",
+    company: "National university of Singapore",
+    duration: "Aug 2022 – May 2023",
+    tasks: [
+      	"Undertook the role of a TA for Software Engineering and Object-Oriented Programming course across two semesters.",
+      	"Instructed students in concepts in Java, OOP, Unit Testing, UML diagrams, Git and Software Engineering Frameworks.",
+      	"Received excellent feedback from students citing technical and communication skills and was nominated for a teaching award."
+    ]
+  }
 ];
 
-export const skills = [
-  "Python",
-  "Java",
-  "JavaScript",
-  "Django",
-  "C++",
-  "Node",
-  "HTML",
-  "CSS",
-  "Markdown",
-  "Agile",
-  "NumPy",
-  "Pandas",
-  "Scikit-learn",
-  "PyTorch",
-  "Celery",
-
-  "Linux",
-
-  
-];
+export const skills = {
+  programmingLanguages: [
+    "Python", "Java", "C++", "C", "JavaScript", "SQL", "HTML", "CSS", "Markdown"
+  ],
+  frameworksLibraries: [
+    "Agile", "Django", "NumPy", "Pandas", "Scikit-learn", "PyTorch", "Celery"
+  ],
+  toolsConcepts: [
+    "Linux", "Git", "UML", "Tableau", "Docker", "MySQL", "Postgres", "SQLite", "Wireshark", "Socket", "Rest API", "Ajax"
+  ]
+};
