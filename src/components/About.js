@@ -12,9 +12,8 @@ export default function About() {
                     Hey, I'm Mathan.
                     <br className="hidden lg:inline-block" />I love to build amazing
                     apps.
-                </h1>
-                <h1>
-                    I am a 
+                    <br className="hidden lg:inline-block" />
+                    I am a &nbsp;
                         <Typewriter texts={jobTitles} delay={100} />
                 </h1>
                 <p className="mb-8 leading-relaxed">

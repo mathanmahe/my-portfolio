@@ -27,7 +27,7 @@ const Typewriter = ({ texts, delay }) => {
     return () => clearTimeout(timeout);
   }, [currentText, currentIndex, texts, currentJobIndex, deleting, delay]);
 
-  return <span>{currentText}</span>;
+  return <span style={{ fontWeight: 'bold', color: 'red' }}>{currentText}</span>;
 };
 
 export default Typewriter;
