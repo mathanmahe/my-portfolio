@@ -54,6 +54,21 @@ export const projects = [
     category: "Machine Learning and Data Analysis",
   },
   {
+    title:  "Mini-Internet Network Connectivity Project",
+    subtitle: "BGP | OSPF | RPKI | IXP",
+    description: "Designed and operated a mini-Internet, collaborating with over 100 classmates to establish end-to-end connectivity across 70 Autonomous Systems (ASes) using routing and switching technologies, including OSPF and BGP, while implementing BGP policies and security measures based on business relationships and RPKI to mitigate BGP hijacks.",
+    image:"./networks.png",
+    category: "Software, Systems and Web Development"
+  },
+  {
+    title:  "Representation of Women in IMDb Top 250 Movies",
+    subtitle: "Python | JavaScript | Tableau | Data Analysis",
+    description: "Scraped data from IMDb for its top 250 movies, to find representation of women in films and how they have evolved over time. Used metrics such as Bechdel test, Sentiment Analysis, Incidence of Female Dialogue in Movie Scripts, we created compelling visualizations that share a story of representations of women have improved over time",
+    image:"./movies.png",
+    category: "Machine Learning and Data Analysis",
+    link: "https://aereeeee.github.io/CS6730_project/"
+  },
+  {
     title: "Software Defined Network Routing",
     subtitle: "ONOS | Python | Mininet | Java",
     description:
