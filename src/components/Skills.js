@@ -24,25 +24,27 @@ export default function Skills() {
           </p>
         </div>
         
-        {Object.keys(skills).map((category) => (
-          <div key={category} className="text-center mb-20">
-            <h3 className="sm:text-2xl text-xl font-medium title-font text-white mb-4">
-             {capitalizeFirstLetterOfEachWord(addSpacesBeforeCapitalLetters(category))} {/* Capitalize first letter of each word and add spaces */}
-            </h3>
-            <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-              {skills[category].map((skill) => (
-                <div key={skill} className="p-2 sm:w-1/2 w-full">
-                  <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                    <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                    <span className="title-font font-medium text-white">
-                      {skill}
-                    </span>
-                  </div>
-                </div>
-              ))}
+        <div className="flex flex-wrap -mx-2">
+          {Object.keys(skills).map((category, index, array) => (
+            <div key={category} className={`flex-1 px-2 mb-20 ${index < array.length - 1 ? 'border-r border-gray-600' : ''}`}
+            >
+              <h3 className="sm:text-2xl text-xl font-medium title-font text-white mb-4">
+              {capitalizeFirstLetterOfEachWord(addSpacesBeforeCapitalLetters(category))} {/* Capitalize first letter of each word and add spaces */}
+              </h3>
+              <div className="grid grid-cols2 gap-4">
+                {skills[category].map((skill) => (
+                  <div key={skill} className="flex p-4 h-full items-center">
+                      <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                      <span className="title-font font-medium text-white">
+                        {skill}
+                      </span>
+                    </div>
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
+        
       </div>
     </section>
   );
