@@ -18,7 +18,7 @@ export default function Education() {
         <div className="flex flex-wrap m-4">
           {education.map((edu, index) => (
             <div key={index} className="p-4 md:w-full w-full">
-              <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+              <div className="h-full bg-slate-500 bg-opacity-40 p-8 rounded">
                 <div className="md:w-2/5 flex justify-start items-right">
                   <img 
                     src={edu.image} // Adjust the path as needed.

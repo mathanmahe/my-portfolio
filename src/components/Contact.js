@@ -54,8 +54,9 @@ export default function Contact() {
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                <a href="mmahendran7@gatech.edu">EMAIL</a>
+                <a href="mailto:mmahendran7@gatech.edu">EMAIL</a>
               </h2>
+              <br/>
 
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 <a href="https://github.com/mathanmahe">
@@ -63,9 +64,13 @@ export default function Contact() {
                 </a>
               </h2>
 
+              <br/>
+
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 <a href="https://www.linkedin.com/in/mathan-mahendran-453aa0208/">LinkedIn</a>
               </h2>
+
+              <br/>
 
             </div>
           </div>
