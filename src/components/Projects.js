@@ -25,20 +25,20 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps I've Built
+            Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             I have worked on several academic and personal projects in a variety of domains. Select a category to filter by!
           </p>
         </div>
 
-        <div className="category-navbar mb-5 py-4 px-6 text-xl">
+        <div className="category-navbar mb-5 py-4 px-6 text-xl bg-blue-500">
           {categories.map((category) => (
             <button
               key={category}
               onClick={() => setActiveCategory(category)}
               className={`${
-                activeCategory === category ? "text-white" : "text-gray-500"
+                activeCategory === category ? "text-white" : "text-gray-950"
               } font-semibold mx-2`}
             >
               {category}
