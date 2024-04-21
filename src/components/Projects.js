@@ -32,7 +32,7 @@ export default function Projects() {
           </p>
         </div>
 
-        <div className="category-navbar mb-5">
+        <div className="category-navbar mb-5 py-4 px-6 text-xl">
           {categories.map((category) => (
             <button
               key={category}
