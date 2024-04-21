@@ -10,6 +10,8 @@
     "react-scripts": "^1.1.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
@@ -25,5 +27,6 @@
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
-  }
+  },
+  "homepage": "https://mathanmahe.github.io/my-portfolio/"
 }
