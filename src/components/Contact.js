@@ -43,13 +43,12 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=Atlanta,+GA,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+          <div className="bg-gray-900 relative flex flex-wrap py-10 rounded shadow-md max-w-l">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
               <p className="mt-1">
-                1220 Mecaslin St <br />
                 Atlanta, GA 30318
               </p>
             </div>
@@ -64,6 +63,18 @@ export default function Contact() {
                 PHONE
               </h2>
               <p className="leading-relaxed">404-933-3866</p>
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                GitHub
+              </h2>
+              <a className="text-indigo-400 leading-relaxed">
+                https://github.com/mathanmahe
+              </a>
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                LinkedIn
+              </h2>
+              <a className="text-indigo-400 leading-relaxed">
+                https://www.linkedin.com/in/mathan-mahendran-453aa0208/
+              </a>
             </div>
           </div>
         </div>
@@ -72,11 +83,10 @@ export default function Contact() {
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Hire Me
+            Contact Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            Feel free to contact me for job opportunities or other enquiries!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">

@@ -83,7 +83,7 @@ export const projects = [
     description:
       "Devised a command-line interface application to assist students in managing classes, expenses, and contacts. Collaborated in a student scrum team to produce functional code, tests, documentation, and UML diagrams.",
     image: "./cli.png",
-    link: "#",
+    link: "https://github.com/mathanmahe/tp",
     category: "Software, Systems and Web Development",
   },
   {
