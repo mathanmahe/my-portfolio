@@ -1,6 +1,9 @@
 import React from "react"
+import Typewriter  from "./Typwriter";
+
 
 export default function About() {
+    const jobTitles = ["Software Engineer", "Web Developer", "ML Engineer", "Data Scientist"]; // Array of job titles
     return (
         <section id="about">
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -9,6 +12,10 @@ export default function About() {
                     Hey, I'm Mathan.
                     <br className="hidden lg:inline-block" />I love to build amazing
                     apps.
+                </h1>
+                <h1>
+                    I am a 
+                        <Typewriter texts={jobTitles} delay={100} />
                 </h1>
                 <p className="mb-8 leading-relaxed">
                     I am a Master's student in Computer Science, specializing in Computing Systems at the Georgia Institute of Technology. 
