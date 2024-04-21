@@ -49,32 +49,24 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                Atlanta, GA 30318
+                Atlanta, GA 
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL
+                <a href="mmahendran7@gatech.edu">EMAIL</a>
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
-                mmahendran7@gatech.edu
-              </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
-              <p className="leading-relaxed">404-933-3866</p>
+
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                GitHub
+                <a href="https://github.com/mathanmahe">
+                  GitHub
+                </a>
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
-                https://github.com/mathanmahe
-              </a>
+
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                LinkedIn
+                <a href="https://www.linkedin.com/in/mathan-mahendran-453aa0208/">LinkedIn</a>
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
-                https://www.linkedin.com/in/mathan-mahendran-453aa0208/
-              </a>
+
             </div>
           </div>
         </div>

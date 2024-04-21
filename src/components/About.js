@@ -18,10 +18,15 @@ export default function About() {
                 </h1>
                 <p className="mb-8 leading-relaxed">
                     I am a Master's student in Computer Science, specializing in Computing Systems at the Georgia Institute of Technology. 
-                    I did my Undergraduate in Computer Engineering, at the National University of Singapore. I am on the lookout for internship 
-                    or job opportunities, in the fields of software engineering, web development, machine learning and data science.
-                    I am a driven individual who likes learning new things everyday, and I want to contribute to making the world a better place through writing code.
-                    In my free time, I like reading, working out and travelling.
+                    
+                    I did my Undergraduate in Computer Engineering, at the National University of Singapore.<br />
+                    
+                    I am on the lookout for internship opportunities in <b>Summer 2024</b>, as well as full-time opportunities in <b>May 2025</b>, in the fields of software engineering, web development, machine learning and data science. <br/>
+
+                    I am a driven individual who likes learning new things everyday, and I want to contribute to making the world a better place through writing code. <br />
+                    
+                    In my free time, I like reading, working out and travelling. <br />
+                    
                     Hit me up if you would like to have a chat!
                 </p>
                 <div className="flex justify-center">
