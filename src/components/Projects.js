@@ -1,10 +1,24 @@
 // src/components/Projects.js
 
 import { CodeIcon } from "@heroicons/react/solid";
-import React from "react";
+import React, {useState} from "react";
 import { projects } from "../data";
 
+const categories = [
+  "All",
+  "Machine Learning and Data Analysis",
+  "Software, Systems and Web Development",
+  "Embedded Software"
+];
+
 export default function Projects() {
+  const [activeCategory, setActiveCategory] = useState("All");
+
+  const filteredProjects = projects.filter(
+    (project) =>
+      activeCategory === "All" || project.category === activeCategory
+  );
+
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -14,13 +28,26 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            I have worked on several academic and personal projects in a variety of domains. Select a category to filter by!
           </p>
         </div>
+
+        <div className="category-navbar mb-5">
+          {categories.map((category) => (
+            <button
+              key={category}
+              onClick={() => setActiveCategory(category)}
+              className={`${
+                activeCategory === category ? "text-white" : "text-gray-500"
+              } font-semibold mx-2`}
+            >
+              {category}
+            </button>
+          ))}
+        </div>
+
         <div className="flex flex-wrap -m-4">
-          {projects.map((project) => (
+          {filteredProjects.map((project) => (
             <a
               href={project.link}
               key={project.image}

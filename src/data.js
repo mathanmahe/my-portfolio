@@ -8,7 +8,9 @@ export const projects = [
       "Analysed procrastination among students in Python by scraping Reddit posts, performing keyword lemmatization, and conducting sentiment analysis to identify that procrastination is correlated with stress and social media use. Sentiment Analysis revealed common feelings such as anger and sadness associated with posts on procrastination.",
     image: "./data_analysis.png",
     link: "#",
-    date: "Apr 2024"
+    date: "Apr 2024",
+    category: "Machine Learning and Data Analysis",
+
   },
   {
     title: "Database Implementation",
@@ -17,7 +19,9 @@ export const projects = [
       "Implemented a B+ tree from scratch in C++ for database indexing, supporting operations such as lookup, insertion, and deletion. Utilized concepts like memory management, concurrency control with mutexes to prevent data corruption and race conditions. Additionally, implemented database operators like Select, Projection, Hash Join, Sort, and Hash Aggregation.",
     image: "./database.png",
     link: "#",
-    date: "Oct 2023"
+    date: "Oct 2023",
+    category: "Software, Systems and Web Development",
+
   },
   {
     title: "Weapon Based Threat Detection",
@@ -26,7 +30,8 @@ export const projects = [
       "Developed a deep learning based multi-class classifier to detect individuals carrying weapons, with potential applications in surveillance. Employed computer vision techniques, data augmentation, hyperparameter tuning, and regularization to enhance accuracy from 70% to 88% while mitigating overfitting.",
     image: "./machineLearning.png",
     link: "#",
-    date: "Jun 2023"
+    date: "Jun 2023",
+    category: "Machine Learning and Data Analysis",
   },
   {
     title: "WeDo Task Manager – Full Stack Web App",
@@ -35,7 +40,8 @@ export const projects = [
       "Created a dynamic web application serving as a task manager with features including user sign-up and authentication, automatic email reminders, mobile responsiveness, and an alternative calendar view for task visualization. Built with Django framework for the Python backend and SQLite for storage, complemented by a HTML/CSS and JavaScript frontend.",
     image: "./wedo.png",
     link: "#",
-    date: "Jan 2023"
+    date: "Jan 2023",
+    category: "Software, Systems and Web Development",
   },
   {
     title: "Automation of Wikipedia's Category Annotations",
@@ -44,7 +50,8 @@ export const projects = [
       "Analysed supervised and unsupervised learning methods for categorization of Wikepedia Articles into 5 major categories. Scraped Data from Wikipedia, performed Exploratory Data Analysis, created word embeddings, and performed analyses using various technicques like Naive Bayes, Gradient Boosting Classifier and Random Forest methods, and found that gradient boosting classifier offered the best performance in predicting categories with an F1 score of 85%.",
     image: "./nlp.png",
     link: "https://sdidt.github.io/CS7641_Project/",
-    date: "Dec 2023"
+    date: "Dec 2023",
+    category: "Machine Learning and Data Analysis",
   },
   {
     title: "Software Defined Network Routing",
@@ -52,7 +59,8 @@ export const projects = [
     description:
       "Designed firewall and learning switch applications using the Open Networking Operating System (ONOS). Developed a fault-tolerant learning switch leveraging intent-based forwarding within a Software Defined Networking environment.",
     image: "./sdn.png",
-    link: "#"
+    link: "#",
+    category: "Software, Systems and Web Development",
   },
   {
     title: "AlloNUS – Java CLI Application",
@@ -60,7 +68,8 @@ export const projects = [
     description:
       "Devised a command-line interface application to assist students in managing classes, expenses, and contacts. Collaborated in a student scrum team to produce functional code, tests, documentation, and UML diagrams.",
     image: "./cli.png",
-    link: "#"
+    link: "#",
+    category: "Software, Systems and Web Development",
   },
   {
     title: "Laser Tag - Computer Engineering Capstone Project",
@@ -68,7 +77,8 @@ export const projects = [
     description:
       "Constructed a physical laser tag game integrated with 6 Arduino microcontrollers and a central relay laptop communicating over Bluetooth low energy. Monitored game states, player health, and ammunition in real-time.",
     image: "./capstone.png",
-    link: "#"
+    link: "#",
+    category: "Embedded Software",
   },
   {
     title: "Real-Time Operating System Based Robot Car",
@@ -76,7 +86,8 @@ export const projects = [
     description:
       "Developed a robot car on an ARM-based FRDM Development Board, featuring a web application for remote control using an ESP8266 Wi-Fi module. Implemented real-time multitasking to handle sound systems, lighting, driving functions, and obstacle detection.",
     image: "./rtos.png",
-    link: "#"
+    link: "#",
+    category: "Embedded Software",
   },
   {
     title: "ALEX Rescue Bot",
@@ -84,7 +95,8 @@ export const projects = [
     description:
       "Created a teleoperated robot capable of performing environmental mapping with LiDAR, along with color sensing and obstacle detection, aimed at rescue operations.",
     image: "./alex.png",
-    link: "#"
+    link: "#",
+    category: "Embedded Software",
   }
 ];
 
