@@ -39,7 +39,7 @@ export const projects = [
     description:
       "Created a dynamic web application serving as a task manager with features including user sign-up and authentication, automatic email reminders, mobile responsiveness, and an alternative calendar view for task visualization. Built with Django framework for the Python backend and SQLite for storage, complemented by a HTML/CSS and JavaScript frontend.",
     image: "./wedo.png",
-    link: "#",
+    link: "https://www.youtube.com/watch?v=Y5-9FkyEIz8&ab_channel=MathanMahendran",
     date: "Jan 2023",
     category: "Software, Systems and Web Development",
   },
@@ -92,7 +92,7 @@ export const projects = [
     description:
       "Constructed a physical laser tag game integrated with 6 Arduino microcontrollers and a central relay laptop communicating over Bluetooth low energy. Monitored game states, player health, and ammunition in real-time.",
     image: "./capstone.png",
-    link: "#",
+    link: "https://github.com/mathanmahe/CG4002-Capstone-LaserTag-Plus",
     category: "Embedded Software",
   },
   {
@@ -101,7 +101,7 @@ export const projects = [
     description:
       "Developed a robot car on an ARM-based FRDM Development Board, featuring a web application for remote control using an ESP8266 Wi-Fi module. Implemented real-time multitasking to handle sound systems, lighting, driving functions, and obstacle detection.",
     image: "./rtos.png",
-    link: "#",
+    link: "https://github.com/mathanmahe/RTOS/tree/master/CG2271%20Project",
     category: "Embedded Software",
   },
   {
